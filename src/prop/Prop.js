@@ -108,6 +108,10 @@ export default class Prop
             {
                 ratio = 1;
             }
+            else if (id == 7)
+            {
+                ratio = 0.6;
+            }
             let t = this.z;
             let w = t[2] * ratio;
             let h = t[3] * ratio;

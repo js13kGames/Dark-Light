@@ -8,6 +8,7 @@ This project is a rogue-like survival stealth third person dungeon crawler (that
 * New enemy designs are added on each floor
 * Hidden shops scattered through the dungeon (grab all the coins you see!)
 * Multiple upgrades
+* Vector drawing. Regardless of the resolution, the game will always look sharp!
 
 **Controls:**
 * PC:
@@ -22,7 +23,7 @@ This project is a rogue-like survival stealth third person dungeon crawler (that
 To fit everything into 13k, I had to unfortunately reduce every function name to 1 letter. It might be hard to read at some places but I made sure every one of them have comments describing their original name and also what they are supposed to do. If you are lost, referer to the function definitions.
 
 ### Compiling
-To minize the code and make it fit under the size limit, I used this Webpack [base projet](https://github.com/mtmckenna/js13k-webpack-typescript-starter-party) and modified for this project. To run it, you need to have the Node Package Manager (npm) and run `npm install` at the root of the project. You will then be able to compile the project by running :
+To minize the code and make it fit under the size limit, I used this Webpack [base projet](https://github.com/mtmckenna/js13k-webpack-typescript-starter-party) and modified it for this project. To run it, you need to have the Node Package Manager (npm) and run `npm install` at the root of the project. You will then be able to compile the project by running :
 
 `npx webpack --build'`
 
